@@ -20,7 +20,7 @@
     `echo "My first Linux note" >> notes.txt`
   `    cat notes.txt`
   
-## Cloud-Native Notes:
+## [[Cloud-Native Notes:]]
 
  - Cloud native = building apps that are scalable , resilient , portable
  - Containers -> package the application and its dependencies runs anywhere
@@ -29,5 +29,15 @@
  - Infra immutability -> don't edit the servers rebuild
  - Declarative API -> describe what you want?
 
+**Reflection:** Containers are the base layer — without them, microservices and service meshes wouldn’t work.
 
- 
+ ## 12 Factor 
+
+- Config -> Keep in the environment not in the code.
+- Process -> The app  should be stateless and no local memory. 
+- Dependencies -> Explicitly list out the  library dependences   
+- Code base -> one code based tracked deployed many
+
+
+**Reflection:** The 12-Factor principles are habits that make cloud-native apps easier to build, scale, and manage.
+-
