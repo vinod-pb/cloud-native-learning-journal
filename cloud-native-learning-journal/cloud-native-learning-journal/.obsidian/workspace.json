@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Day 1"
             }
+          },
+          {
+            "id": "a08ba03af64ca7d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +177,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "yet-another-obsidian-synchronizer:YAOS": false
+      "yet-another-obsidian-synchronizer:YAOS": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "361b6e0fc8264cea",
