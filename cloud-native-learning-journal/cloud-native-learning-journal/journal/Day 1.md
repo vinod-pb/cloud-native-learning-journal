@@ -31,7 +31,7 @@
 
 **Reflection:** Containers are the base layer — without them, microservices and service meshes wouldn’t work.
 
- ## 12 Factor 
+ ## [[12 Factor]] 
 
 - Config -> Keep in the environment not in the code.
 - Process -> The app  should be stateless and no local memory. 
